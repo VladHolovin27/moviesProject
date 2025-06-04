@@ -101,3 +101,9 @@ html, body {
         flex-direction: column;
     }
 }
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 0 auto;
+    }
+}

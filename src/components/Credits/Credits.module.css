@@ -14,3 +14,9 @@
         margin-top: 30px;
     }
 }
+
+@media (max-width: 1200px) {
+    .map {
+        margin: 0 auto;
+    }
+}
