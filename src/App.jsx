@@ -10,7 +10,7 @@ const Credits = React.lazy(() => import("./components/Credits/Credits"));
 
 function App() {
     return (
-        <Router basename="/router">
+        <Router basename="/moviesProject">
             <Suspense fallback={<div>Завантаження...</div>}>
                 <Menu />
                 <Routes>
