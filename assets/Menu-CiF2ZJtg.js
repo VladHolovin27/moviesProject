@@ -1,0 +1,1 @@
+import{j as n,L as s}from"./index-C_MuWb_5.js";const e="_nav_1a8vb_1",a={nav:e};function t(){return n.jsxs("nav",{className:a.nav,children:[n.jsx(s,{to:"/",children:"Home"}),n.jsx(s,{to:"/movies",children:"Movies"})]})}export{t as default};
