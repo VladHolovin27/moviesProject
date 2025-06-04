@@ -7,3 +7,10 @@
     list-style: none;
     margin-left: 180px;
 }
+
+@media (max-width: 768px) {
+    .map {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}

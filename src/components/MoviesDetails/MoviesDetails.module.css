@@ -70,3 +70,21 @@
     border-color: #ff6600;
     transform: rotate(45deg) scale(1.2);
 }
+
+@media (max-width: 768px) {
+    .divDetails {
+        margin: 0 auto;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .rating, .release {
+        font-size: 16px;
+    }
+
+    .overview {
+        font-size: 14px;
+    }
+}

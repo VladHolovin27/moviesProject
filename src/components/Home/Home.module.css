@@ -80,3 +80,24 @@ html, body {
     background-color: #ccc;
     cursor: not-allowed;
 }
+
+@media (max-width: 768px) {
+    .container {
+        margin-left: 0;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 22px;
+    }
+
+    .movieItem {
+        font-size: 14px;
+    }
+
+    .pagination {
+        flex-direction: column;
+    }
+}
